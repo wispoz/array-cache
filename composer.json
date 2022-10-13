@@ -31,5 +31,12 @@
         "psr-4": {
             "Wispoz\\ArrayCache\\Tests\\": "tests"
         }
+    },
+    "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+        "infection/extension-installer": true,
+        "composer/package-versions-deprecated": true
     }
+}
 }
